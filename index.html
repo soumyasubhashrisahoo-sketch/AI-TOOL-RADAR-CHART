@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Tools Radar Chart</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+
+<body>
+  <h2>AI tools — capability radar</h2>
+  <p class="subtitle">A personal assessment across 8 dimensions — ChatGPT vs Claude vs Gemini</p>
+
+  <div class="legend-row">
+    <span class="legend-item"><span class="legend-swatch" style="background:#7F77DD;"></span>ChatGPT</span>
+    <span class="legend-item"><span class="legend-swatch" style="background:#1D9E75;"></span>Claude</span>
+    <span class="legend-item"><span class="legend-swatch" style="background:#378ADD;"></span>Gemini</span>
+  </div>
+  <p class="hint">Scale: 1 (basic) → 10 (excellent) — personal assessment</p>
+
+  <div class="chart-wrap">
+    <canvas id="radarChart"></canvas>
+  </div>
+
+  <div class="takeaway">
+    <p class="takeaway-title">Key takeaway</p>
+    <p class="takeaway-body">No single tool dominates every dimension. The skill isn't picking one
+         — it's knowing <em>which</em> to reach for and <em>when</em>. That's intentional use.</p>
+  </div>
+
+  <script src ="script.js"></script>
+</body>
+</html>

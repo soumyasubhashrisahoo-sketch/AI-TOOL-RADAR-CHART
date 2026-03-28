@@ -1,0 +1,72 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      padding: 32px 24px;
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    @media (prefers-color-scheme: dark) {
+      body { background: #1c1c1a; color: #e8e6de; }
+      .card { background: #2a2a28; border-color: rgba(255,255,255,0.1); }
+      .takeaway { background: #2a2a28; border-left-color: #7F77DD; }
+      .label-muted { color: #9c9a92; }
+      .label-hint { color: #73726c; }
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 4px;
+      color: inherit;
+    }
+    .subtitle {
+      font-size: 13px;
+      color: #5F5E5A;
+      margin-bottom: 20px;
+    }
+    .legend-row {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      font-size: 12px;
+      color: #5F5E5A;
+      margin-bottom: 8px;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+    .legend-swatch {
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+    }
+    .hint {
+      font-size: 11px;
+      color: #888780;
+      margin-bottom: 16px;
+    }
+    .chart-wrap {
+      position: relative;
+      width: 100%;
+      height: 420px;
+    }
+    .takeaway {
+      margin-top: 24px;
+      padding: 14px 16px;
+      background: #f4f3f1;
+      border-left: 3px solid #7F77DD;
+      border-radius: 0 10px 10px 0;
+    }
+    .takeaway-title {
+      font-size: 13px;
+      font-weight: 500;
+      margin-bottom: 6px;
+    }
+    .takeaway-body {
+      font-size: 12px;
+      color: #5F5E5A;
+      line-height: 1.6;
+    }

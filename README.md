@@ -1,7 +1,7 @@
 
 # AI-TOOL-RADAR-CHART
  
-> A personal research experiment by a BTech CSE (AI & ML) student — visualising how ChatGPT, Claude, and Gemini compare across real engineering use-cases using a radar/spider chart.
+> A personal research experiment by Me - Soumya Subhashri Sahoo, a BTech CSE (AI & ML) student — visualising how ChatGPT, Claude, and Gemini compare across real engineering use-cases using a radar/spider chart.
  
 ---
  

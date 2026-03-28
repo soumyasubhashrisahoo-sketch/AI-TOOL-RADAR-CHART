@@ -135,8 +135,8 @@ No single tool wins across every dimension. The real skill for an engineer in 20
  
 ---
  
-## Author
+## CREATED BY :
  
-**Soumyasubhashrisahoo** — BTech CSE (AI & ML) student  
+**Soumya Subhashri Sahoo** — BTech CSE (AI & ML) student  
 Built as part of a personal experiment on intentional AI usage in engineering workflows.  
 LinkedIn post: *"Is using AI making me less creative as an engineer?"*
